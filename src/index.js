@@ -1,5 +1,6 @@
 import './style.css'
 import ProfilePic1 from './images/pexels-sam-lion-6001544.jpg'
+import ProfilePic2 from './images/pexels-sam-lion-6001559.jpg'
 import GithubIcon from './images/icons8-github-30.png'
 import LinkedInIcon from './images/icons8-linkedin-30.png'
 import TwitterIcon from './images/icons8-twitter-30.png'
@@ -9,6 +10,7 @@ import PhoneIcon from './images/icons8-phone-32.png'
 import MailIcon from './images/icons8-mail-48.png'
 
 document.querySelector('header figure img').src = ProfilePic1
+document.querySelector('footer > img').src = ProfilePic2
 
 Array.from(document.querySelectorAll('.github')).forEach(image => image.src = GithubIcon)
 Array.from(document.querySelectorAll('.linkedin')).forEach(image => image.src = LinkedInIcon)

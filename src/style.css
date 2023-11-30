@@ -176,7 +176,7 @@ footer .social-links {
 }
 
 .spin:hover {
-    animation: spiner 1.5s ease-in-out 0ms ;
+    animation: spiner 1.5s ease-in-out ;
 }
 
 @keyframes spiner {
@@ -187,7 +187,7 @@ footer .social-links {
         transform: rotate(-90deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(720deg);
     }
 }
 
